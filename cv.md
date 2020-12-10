@@ -35,4 +35,5 @@
 	+ [Dota 2](https://ru.dota2.com/)
 	+ [CS:GO](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/)
 	+ [NBA](https://store.steampowered.com/app/1225330/NBA_2K21/)
+	+ [FIFA 21](https://www.ea.com/ru-ru/games/fifa/fifa-21)
 * Watch [youtube](https://www.youtube.com/)
