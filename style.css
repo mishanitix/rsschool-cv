@@ -1,0 +1,166 @@
+* {
+    list-style-type: none;
+    word-wrap: break-word;
+  }
+  
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover { 
+    text-decoration: underline; 
+  }
+  
+  header, 
+  main,
+  footer {
+    display: flex;
+    flex-flow: row, wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* фон для header, main, footer */
+  .display1   { background-color: rgb(0,128,128); }
+  .display2   { background-color: rgb(205,203,207); }
+  .display3   { background-color: rgb(97,93,97); }
+  
+  /* header(имя) */
+  .my_name {
+    margin: 10px 50px;
+    font-size: 52px;
+  }
+  
+  /* должность */
+  .position {
+    margin: 0px 50px;
+    font-size: 25px;
+    background-color: rgba(136,189,202,0.438);
+  }
+  
+  .class_span {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .contacts {
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .contacts_link {
+    margin: -10px;
+    font-size: 15px;
+  }
+  
+  .class_icon   { vertical-align: -10px; }
+  
+  .interests {
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .interests_list { 
+    text-align: start;
+  }
+  
+  /* раздел section */
+  section {
+    float: right;
+    width: 100%;
+  }
+  
+  .class_why { 
+    margin: 0px 50px; 
+  }
+  
+  .class_programmer {
+    margin: 25px 70px;
+    padding: -25px;
+    font-style: italic;
+  }
+  
+  .postscriptum { 
+    font-weight: bolder; 
+  }
+  
+  .class_courses {
+    line-height: 5px;
+  }
+  
+  .class_skill {
+    margin: 0px px;
+  }
+  
+  .class_photo1 {
+    max-width: 200px;
+  }
+  
+  .class_photo {
+    margin: 50px ;
+    max-width: 200px;
+  }
+  
+  /* раздел footer */
+  .footer {
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .display1, 
+    .display2, 
+    .display3 {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .display1, 
+    .display2, 
+    .display3 {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .display1, 
+    .display2, 
+    .display3 {
+      flex-direction: column;
+    }
+    .class_photo {
+      margin: 0 auto;
+    }
+    .class_photo1 {
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 160px) {
+    .display1, 
+    .display2, 
+    .display3 {
+      flex-direction: column;
+    }
+    .class_photo {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    .class_photo1 {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+  }
+
