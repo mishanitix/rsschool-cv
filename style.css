@@ -1,0 +1,170 @@
+* {
+    word-wrap: break-word;
+  }
+  
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover { 
+    text-decoration: underline; 
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0;
+    padding: 10px;
+  }
+
+  main,
+  footer {
+    display: flex;
+    flex-flow;
+    align-items: stretch;
+    align-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  
+  .header { 
+    background-color: rgb(0,128,128); 
+  }
+
+  .main { 
+    background-color: rgb(205,203,207); 
+  }
+
+  .footer {
+     background-color: rgb(97,93,97); 
+    }
+
+  .my-name {
+    margin: 10px 50px;
+    font-size: 52px;
+  }
+  
+  .position {
+    margin: 0px 50px;
+    font-size: 25px;
+  }
+  
+  .object-position {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(136,189,202,0.438);
+  }
+  .object-position1 {
+    font-size: 30px;
+    background-color: rgba(136,189,202,0.438);
+  }
+  
+
+  .photo {
+    margin: 50px ;
+    max-width: 200px;
+  }
+
+  .contacts {
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  .contacts-link {
+    margin: -10px;
+    font-size: 15px;
+    list-style-type: none;
+  }
+  
+  .icon { 
+    vertical-align: -10px; 
+  }
+  
+  .interests {
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  .interests-list {
+    list-style-type: none;
+  }
+  
+  section {
+    float: right;
+    width: 100%;
+  }
+  
+  .paragraph-why {
+    margin: 25px 15px;
+    line-height: 15px;
+    font-style: italic;
+  }
+  
+  .postscriptum { 
+    font-weight: bolder; 
+  }
+
+  .footer {
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .footer-text {
+    margin: 0 auto;
+    background-color: rgb(106, 116, 116);
+  }
+  
+
+
+  
+  @media screen and (max-width: 640px) {
+    .header, 
+    .main, 
+    .footer {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header, 
+    .main, 
+    .footer {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .header, 
+    .main, 
+    .footer {
+      flex-direction: column;
+    }
+    .photo {
+      max-width: 150px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 160px) {
+    .header, 
+    .main, 
+    .footer {
+      flex-direction: column;
+    }
+    .photo {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+  }
+
